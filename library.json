@@ -1,5 +1,12 @@
 {
+  "name":"libusb",
   "build": {
     "includeDir": "inc"
-  }
+  },
+  "dependencies": [
+    {
+      "name": "stm32h",
+      "version": "https://github.com/TimVosch/stm32h.git"
+    }
+  ]
 }
